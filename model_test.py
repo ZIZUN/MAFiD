@@ -1,9 +1,3 @@
-# MAFiD
-Code for "MAFiD: Moving Average Equipped Fusion-in-Decoder for Question Answering over Tabular and Textual Data", EACL2023 Findings
-
-## Model test
-
-```python
 import src.model
 import torch
 
@@ -36,10 +30,3 @@ outputs = model.generate(
     psg_ids=psg_ids, psg_attention_mask=psg_attention_mask,    
     max_length=50,
 )
-
-```
-
-
-## References
-- Fusion-in-Decoder
-- Facebook-Mega
