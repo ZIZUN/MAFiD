@@ -41,5 +41,6 @@ outputs = model.generate(
 
 
 ## References
-- Fusion-in-Decoder
-- Facebook-Mega
+- [Fusion-in-Decoder](https://arxiv.org/pdf/2007.01282) 
+- [Facebook-Mega](https://arxiv.org/pdf/2209.10655)
+- [MLA](https://arxiv.org/pdf/2106.00950)
